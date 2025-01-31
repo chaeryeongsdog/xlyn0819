@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/home.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/link-list.css">
     <title>xlyn0819</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-left">
+        <img src="./img/logo.png" alt="" />
+        <p id="days"></p>
+      </div>
+      <div class="header-right">
+        <img id="listBtn" src="./img/list-button.png" alt="">
+        <ul>
+          <li>Gallery</li>
+          <li>Milestones</li>
+          <li>Calendar</li>
+          <li>Message</li>
+          <li>Wishlist</li>
+        </ul>
+      </div>
+    </header>
+    <div class="link-list" id="linkList">
+        <ul>
+            <li>Gallery</li>
+            <li>Milestones</li>
+            <li>Calendar</li>
+            <li>Message</li>
+            <li>Wishlist</li>
+          </ul>
+    </div>
 
     <script src="./js/home.js"></script>
-</body>
+  </body>
 </html>

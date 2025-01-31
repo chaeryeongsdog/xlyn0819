@@ -1,0 +1,33 @@
+.link-list * {
+    font-family: "Fraunces", serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.link-list {
+    background-color: #FDF1F1;
+    height: 0;
+    transition: all 1s ease;
+    position: relative;
+    top: 10vh;
+    display: none;
+}
+.link-list ul {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0;
+}
+.link-list ul li {
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+@media (max-width: 1000px) {
+    .link-list {
+        display: block;
+    }
+}
